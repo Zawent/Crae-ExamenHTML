@@ -149,6 +149,12 @@ header ul li:nth-child(1){
     margin-right: 3px;
 }
 
+@media (min-width: 1339px){
+    aside {
+        display: none;
+    }
+}
+
 aside {
     display: flex;
     flex-direction: column;
@@ -176,3 +182,106 @@ aside img:nth-child(3){
     margin-top: 5px;
 }
 
+.comoJugar{
+    padding: 56px 169px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 41px;
+}
+
+
+.comoJugar h2{
+    font-family:  "RobotoCondensed-Bold";
+    font-size: 64px;
+}
+
+
+.comoJugar p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 36px;
+    text-align: center;
+    width: 654px;
+}
+
+.comoJugar article{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 64px;
+}
+
+.reglas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+    align-items: center;
+}
+
+.reglas h4{
+    width: 100px;
+    height: 100px;
+    background: var(--color-1);
+    color: var(--color-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:  "RobotoCondensed-Bold";
+    font-size: 64px;
+    border-radius: 50%;
+}
+
+.reglas p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 28px;
+    width: 752px;
+    text-align: start;
+}
+
+.apoyanos {
+    display: flex;
+    padding: 212px 142px 0px;
+    gap: 37px;
+}
+
+.apoyanos article:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    gap: 83px;
+}
+
+.apoyanos h2{
+    font-family:  "RobotoCondensed-Bold";
+    font-size: 72px;
+}
+
+.apoyanos p{
+    font-family:  "RobotoCondensed-Regular";
+    font-size: 36px;
+    width: 751px;
+}
+
+.apoyanos article:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    align-items: center;
+}
+
+.apoyanos article:nth-child(2) img{
+    width: 375px;
+}
+
+.apoyanos article:nth-child(2) a{
+    width: 282px;
+    height: 57px;
+    background: var(--color-1);
+    color: var(--color-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 36px;
+    font-family: "RobotoCondensed-Bold";
+    border-radius: 32.5px;
+}
