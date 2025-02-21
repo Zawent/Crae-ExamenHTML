@@ -3,8 +3,11 @@
 *{
     margin: 0px;
     box-sizing: border-box;
-    background: var(--color-2);
     color: var(--color-1);
+}
+
+body{
+    background: #141414;
 }
 
 header {
@@ -284,4 +287,58 @@ aside img:nth-child(3){
     font-size: 36px;
     font-family: "RobotoCondensed-Bold";
     border-radius: 32.5px;
+}
+
+.about {
+    display: flex;
+    padding: 212px 142px 231px;
+    gap: 100px;
+}
+
+.about article:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    gap: 69px;
+}
+
+.about h2{
+    font-family:  "RobotoCondensed-Bold";
+    font-size: 72px;
+}
+
+.about p{
+    font-family:  "RobotoCondensed-Regular";
+    font-size: 36px;
+    width: 713px;
+}
+
+.about p span{
+    font-family:  "RobotoCondensed-Regular";
+    font-size: 34px;
+}
+
+.about article:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30svw;
+    gap: 10px;
+}
+
+.about article:nth-child(2) img{
+    width: 320px;
+}
+
+
+.about article:nth-child(2) p{
+    font-family:  "RobotoCondensed-Regular";
+    font-size: 96px;
+    text-align: center;
+    width: auto;
+}
+
+.about article:nth-child(2) p img{
+    height: 82px;
+    width: 80px;
 }
