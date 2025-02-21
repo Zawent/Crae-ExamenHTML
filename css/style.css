@@ -4,6 +4,7 @@
     margin: 0px;
     box-sizing: border-box;
     background: var(--color-2);
+    color: var(--color-1);
 }
 
 header {
@@ -81,6 +82,97 @@ header ul li:nth-child(1){
     height: 35px;
 }
 
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 707px;
+}
+
 .craeInfo {
     display: flex;
+    padding: 53px 0px 0px 100px;
+    position: relative;
 }
+
+.logoCrae {
+   display: flex;
+   align-items: end;
+   gap: 22px;
+   width: 707px;
+}
+
+.logoCrae img:nth-child(4) {
+    margin-left: -28px;
+    background: none;
+}
+
+.left h2{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 56.4px;
+    font-weight: lighter;
+    margin-top: 13px;
+}
+
+.left p {
+    font-family: "RobotoCondensed-Regular";
+    font-size: 26px;
+    text-align: justify;
+}
+
+.right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right a{
+    background: var(--color-1);
+    color: var(--color-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 249px;
+    height: 59px;
+    border-radius: 31.5px;
+    margin-left: 60px;
+    margin-top: -30px;
+    font-family:  "RobotoCondensed-Bold";
+    font-size: 40px;
+    text-decoration: none;
+    
+}
+
+.right a img{
+    background: none;
+    margin-right: 3px;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    right: 38px;
+    gap: 5px;
+}
+
+aside img:nth-child(1){
+    width: 60px;
+    background: none;
+}
+
+aside img:nth-child(2){
+    width: 50px;
+    background: none;
+}
+
+
+aside img:nth-child(3){
+    width: 55px;
+    background: none;
+    margin-top: 5px;
+}
+
