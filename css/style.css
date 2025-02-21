@@ -3,5 +3,374 @@
 *{
     margin: 0px;
     box-sizing: border-box;
+    color: var(--color-1);
+}
 
+body{
+    background: #141414;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 22px;
+    align-items: end;
+    padding-right: 27px;
+    height: 96px;
+}
+
+header .logo {
+    position: relative;
+    width: 268px;
+    height: inherit;
+}
+
+header a {
+    width: 298px;
+    height: 90px;
+    background: var(--color-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--color-2);;
+    font-family: "RobotoCondensed-Regular";
+    font-size: 48px;
+    border-radius: 48px;
+    position: absolute;
+    left: -40px;
+    gap: 5px;
+}
+
+header a img {
+    width: 46px;
+    height: 45px;
+    background: none;
+    margin-top: -5px;
+}
+
+header ul {
+    display: flex;
+    color: var(--color-1);
+    max-width: 732px;
+    gap: 64px;
+    justify-content: space-between;
+    font-family: "RobotoCondensed-Bold";
+    font-size: 24px;
+    align-items: center;
+    list-style: none;
+    border-bottom: solid var(--color-3);
+    padding-left: 0px;
+}
+
+header ul li {
+    padding-bottom: 10px;
+}
+
+header ul li:nth-child(1){
+    border-bottom: solid var(--color-1);
+    margin-right: 20px;
+}
+
+.icons {
+    display: flex;
+    gap: 28px;
+    width: 268px;
+    justify-content: end;
+}
+
+.icons img:nth-child(1) {
+    width: 35px;
+    height: 35px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 707px;
+}
+
+.craeInfo {
+    display: flex;
+    padding: 53px 0px 0px 100px;
+    position: relative;
+    justify-content: center;
+}
+
+.logoCrae {
+   display: flex;
+   align-items: end;
+   gap: 22px;
+   width: 707px;
+}
+
+.logoCrae img:nth-child(4) {
+    margin-left: -28px;
+    background: none;
+}
+
+.left h2{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 56.4px;
+    font-weight: lighter;
+    margin-top: 13px;
+}
+
+.left p {
+    font-family: "RobotoCondensed-Regular";
+    font-size: 26px;
+    text-align: justify;
+}
+
+.right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.right a{
+    background: var(--color-1);
+    color: var(--color-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 249px;
+    height: 59px;
+    border-radius: 31.5px;
+    margin-left: 60px;
+    margin-top: -30px;
+    font-family:  "RobotoCondensed-Bold";
+    font-size: 40px;
+    text-decoration: none;
+    
+}
+
+.right a img{
+    background: none;
+    margin-right: 3px;
+}
+
+@media (min-width: 1339px){
+    aside {
+        display: none;
+    }
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    right: 38px;
+    gap: 5px;
+}
+
+aside img:nth-child(1){
+    width: 60px;
+    background: none;
+}
+
+aside img:nth-child(2){
+    width: 50px;
+    background: none;
+}
+
+
+aside img:nth-child(3){
+    width: 55px;
+    background: none;
+    margin-top: 5px;
+}
+
+.comoJugar{
+    padding: 56px 169px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 41px;
+}
+
+
+.comoJugar h2{
+    font-family:  "RobotoCondensed-Bold";
+    font-size: 64px;
+}
+
+
+.comoJugar p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 36px;
+    text-align: center;
+    width: 654px;
+}
+
+.comoJugar article{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 64px;
+}
+
+.reglas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+    align-items: center;
+    max-width: 1200px;
+}
+
+.reglas h4{
+    width: 100px;
+    height: 100px;
+    background: var(--color-1);
+    color: var(--color-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:  "RobotoCondensed-Bold";
+    font-size: 64px;
+    border-radius: 50%;
+}
+
+.reglas p{
+    font-family: "RobotoCondensed-Regular";
+    font-size: 28px;
+    width: 752px;
+    text-align: start;
+}
+
+.apoyanos {
+    display: flex;
+    padding: 212px 142px 0px;
+    gap: 37px;
+    justify-content: center;
+}
+
+.apoyanos article:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    gap: 83px;
+}
+
+.apoyanos h2{
+    font-family:  "RobotoCondensed-Bold";
+    font-size: 72px;
+}
+
+.apoyanos p{
+    font-family:  "RobotoCondensed-Regular";
+    font-size: 36px;
+    width: 751px;
+}
+
+.apoyanos article:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    align-items: center;
+}
+
+.apoyanos article:nth-child(2) img{
+    width: 375px;
+}
+
+.apoyanos article:nth-child(2) a{
+    width: 282px;
+    height: 57px;
+    background: var(--color-1);
+    color: var(--color-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 36px;
+    font-family: "RobotoCondensed-Bold";
+    border-radius: 32.5px;
+}
+
+.about {
+    display: flex;
+    padding: 212px 142px 231px;
+    gap: 100px;
+    justify-content: center;
+}
+
+.about article:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    gap: 69px;
+}
+
+.about h2{
+    font-family:  "RobotoCondensed-Bold";
+    font-size: 72px;
+}
+
+.about p{
+    font-family:  "RobotoCondensed-Regular";
+    font-size: 36px;
+    width: 713px;
+}
+
+.about p span{
+    font-family:  "RobotoCondensed-Regular";
+    font-size: 34px;
+}
+
+.about article:nth-child(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.about article:nth-child(2) img{
+    width: 320px;
+}
+
+
+.about article:nth-child(2) p{
+    font-family:  "RobotoCondensed-Regular";
+    font-size: 96px;
+    text-align: center;
+    width: auto;
+}
+
+.about article:nth-child(2) p img{
+    height: 82px;
+    width: 80px;
+}
+
+
+footer {
+    background: var(--color-1);
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 48px;
+}
+
+
+footer p{
+    font-family:  "RobotoCondensed-Regular";
+    font-size: 24px;
+    color: var(--color-2);
+}
+
+footer p img{
+    margin-bottom: -2px;
+    margin-right: 3px;
+}
+
+footer h3{
+    font-family:  "RobotoCondensed-Regular";
+    font-size: 24px;
+    color: #707070;
+    font-weight: 100;
 }
