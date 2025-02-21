@@ -3,5 +3,84 @@
 *{
     margin: 0px;
     box-sizing: border-box;
+    background: var(--color-2);
+}
 
+header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 22px;
+    align-items: end;
+    padding-right: 27px;
+    height: 96px;
+}
+
+header .logo {
+    position: relative;
+    width: 268px;
+    height: inherit;
+}
+
+header a {
+    width: 298px;
+    height: 90px;
+    background: var(--color-1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: var(--color-2);;
+    font-family: "RobotoCondensed-Regular";
+    font-size: 48px;
+    border-radius: 48px;
+    position: absolute;
+    left: -40px;
+    gap: 5px;
+}
+
+header a img {
+    width: 46px;
+    height: 45px;
+    background: none;
+    margin-top: -5px;
+}
+
+header ul {
+    display: flex;
+    color: var(--color-1);
+    max-width: 732px;
+    gap: 64px;
+    justify-content: space-between;
+    font-family: "RobotoCondensed-Bold";
+    font-size: 24px;
+    align-items: center;
+    list-style: none;
+    border-bottom: solid var(--color-3);
+    padding-left: 0px;
+}
+
+header ul li {
+    padding-bottom: 10px;
+}
+
+header ul li:nth-child(1){
+    border-bottom: solid var(--color-1);
+    margin-right: 20px;
+}
+
+.icons {
+    display: flex;
+    gap: 28px;
+    width: 268px;
+    justify-content: end;
+}
+
+.icons img:nth-child(1) {
+    width: 35px;
+    height: 35px;
+}
+
+.craeInfo {
+    display: flex;
 }
