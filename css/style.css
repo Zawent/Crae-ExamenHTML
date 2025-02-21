@@ -342,3 +342,32 @@ aside img:nth-child(3){
     height: 82px;
     width: 80px;
 }
+
+
+footer {
+    background: var(--color-1);
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 48px;
+}
+
+
+footer p{
+    font-family:  "RobotoCondensed-Regular";
+    font-size: 24px;
+    color: var(--color-2);
+}
+
+footer p img{
+    margin-bottom: -2px;
+    margin-right: 3px;
+}
+
+footer h3{
+    font-family:  "RobotoCondensed-Regular";
+    font-size: 24px;
+    color: #707070;
+    font-weight: 100;
+}
