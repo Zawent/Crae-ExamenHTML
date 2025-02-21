@@ -96,6 +96,7 @@ header ul li:nth-child(1){
     display: flex;
     padding: 53px 0px 0px 100px;
     position: relative;
+    justify-content: center;
 }
 
 .logoCrae {
@@ -219,6 +220,7 @@ aside img:nth-child(3){
     grid-template-columns: 1fr 1fr 1fr;
     gap: 32px;
     align-items: center;
+    max-width: 1200px;
 }
 
 .reglas h4{
@@ -245,6 +247,7 @@ aside img:nth-child(3){
     display: flex;
     padding: 212px 142px 0px;
     gap: 37px;
+    justify-content: center;
 }
 
 .apoyanos article:nth-child(1){
@@ -293,6 +296,7 @@ aside img:nth-child(3){
     display: flex;
     padding: 212px 142px 231px;
     gap: 100px;
+    justify-content: center;
 }
 
 .about article:nth-child(1){
@@ -322,7 +326,6 @@ aside img:nth-child(3){
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 30svw;
     gap: 10px;
 }
 
